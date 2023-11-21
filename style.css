@@ -246,7 +246,9 @@ ul{
 
 .aside .nav li{
     margin-bottom: 20px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .aside .nav li a{
