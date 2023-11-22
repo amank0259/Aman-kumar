@@ -129,7 +129,7 @@ ul{
     white-space: nowrap;
     border: none;
     background: var(--skin-color);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn:hover{
@@ -355,7 +355,7 @@ h3.my-profession{
 .social-link i{
     font-size: 48px;
     color: var(--skin-color);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .social-link i:hover{
@@ -472,26 +472,15 @@ h3.my-profession{
 .row .skill-icon:nth-child(4) img{
     border-radius: 4px;
 }
-/*
-.row .skill-icon svg{
-    transition: all 0.3s ease;
+
+.row .skill-icon img{
+    transition: all 0.3s ease-in-out;
 }
 
-.row .skill-icon svg:hover{
+.row .skill-icon img:hover{
     scale: 1.1;
 }
 
-.row .skill-icon svg:hover span{
-    visibility: visible;
-}
-
-.skill-icon span {  
-    padding: 10px 10px 10px 0;
-    margin-left: 10px;
-    font-size: 16px;
-    font-weight: 500;
-    visibility: hidden;
-  }   */
 
 .about .about-content .skills .skill-item .skill-percent{
     position: absolute;
@@ -603,7 +592,7 @@ h3.my-profession{
     border-radius: 10px;
     padding: 30px 15px;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .service .service-item .service-item-inner:hover{
@@ -617,14 +606,14 @@ h3.my-profession{
     display: block;
     margin: 0 auto 30px;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .service .service-item .service-item-inner .icon .fa{
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .service .service-item .service-item-inner:hover .icon{
@@ -758,7 +747,7 @@ h3.my-profession{
     padding: 10px 25px;
     font-size: 16px;
     color: var(--text-black-700);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .contact .contact-form .form-item .form-control:focus{
