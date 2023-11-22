@@ -30,3 +30,20 @@ window.onscroll = () => {
         };
     });
 };
+
+
+// SMTP for Contact
+
+function sendEmail(){
+  Email.send({
+    Host : "smtp.gmail.com",
+    Username : "0259aman@gmail.com",
+    Password : "Amank@0259",
+    To : 'amank0259@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : document.getElementById("subject").value,
+    Body : "And this is the body"
+  }).then(
+  message => alert(message)
+  );
+}

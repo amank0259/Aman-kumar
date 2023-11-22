@@ -378,6 +378,7 @@ h3.my-profession{
     margin-bottom: 15px;
     font-weight: 700;
     color: var(--text-black-900);
+    margin-left: 15px;
 }
 
 .about .about-content .about-text h3 span{
@@ -388,6 +389,7 @@ h3.my-profession{
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
+    margin-left: 15px;
 }
 
 .about .about-content .personal-info{
@@ -780,6 +782,15 @@ h3.my-profession{
     }
 }
 
+@media (min-width:1199px) and (max-width:1325px){
+    .aside{
+        width: 150px;
+    }
+    .main-container{
+        margin-left:100px;
+    }
+}
+
 @media (max-width:991px){
 
     .contact .contact-info-item,
@@ -811,10 +822,19 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    .social-link{
+        display: flex;
+        flex-direction: row;
+    }
+    .row .social-link i{
+        font-size: 34px;
+        margin: 8px -10px;
+    }
 }
 
 .row .social-link{
     position: absolute;
     right: 0;
-    top: -20%;
+    top: -22%;
 }
