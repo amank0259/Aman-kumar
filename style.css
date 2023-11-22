@@ -339,6 +339,29 @@ h3.my-profession{
     height: 400px;
 }
 
+.social-link{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin: 25px 0;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.social-link a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.social-link i{
+    font-size: 48px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+.social-link i:hover{
+    transform: scale(1.15);
+    }
+
 /********* About ********/
 .about .about-content{
     flex: 0 0 100%;
@@ -438,6 +461,37 @@ h3.my-profession{
     border-radius: 4px;
     background-color: var(--skin-color);
 }
+
+ .row .skill-icon{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.row .skill-icon:nth-child(4) img{
+    margin-top: 5px;
+}
+.row .skill-icon:nth-child(4) img{
+    border-radius: 4px;
+}
+/*
+.row .skill-icon svg{
+    transition: all 0.3s ease;
+}
+
+.row .skill-icon svg:hover{
+    scale: 1.1;
+}
+
+.row .skill-icon svg:hover span{
+    visibility: visible;
+}
+
+.skill-icon span {  
+    padding: 10px 10px 10px 0;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    visibility: hidden;
+  }   */
 
 .about .about-content .skills .skill-item .skill-percent{
     position: absolute;
@@ -768,4 +822,10 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
+}
+
+.row .social-link{
+    position: absolute;
+    right: 0;
+    top: -20%;
 }
